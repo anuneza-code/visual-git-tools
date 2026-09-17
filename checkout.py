@@ -4,7 +4,7 @@ def total_price(items, discount=0):
     for price in items:
         total = total + price
     total = total - (total * discount / 100)
-    return total
+    return total + 5
 
 
 prices = [10, 25, 8]
