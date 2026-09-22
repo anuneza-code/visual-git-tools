@@ -9,3 +9,4 @@ def total_price(items, discount=0):
 
 prices = [10, 25, 8]
 print("Total:", total_price(prices, discount=10))
+print("Checkout complete.")
